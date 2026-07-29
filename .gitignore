@@ -1,0 +1,35 @@
+# CAD working files - Onshape is the source of truth, exports live in stl/
+*.f3d
+*.f3z
+*.step
+*.stp
+*.iges
+*.igs
+*.sldprt
+*.sldasm
+
+# Slicer output - never commit, these are printer-specific
+*.gcode
+*.gco
+*.3mf
+*.bgcode
+*.ctb
+
+# Capture data
+*.mp4
+*.mov
+*.insv
+*.insp
+*.lrv
+
+# Large raw photos - resize before committing to docs/img/
+*.CR2
+*.CR3
+*.NEF
+*.ARW
+*.dng
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

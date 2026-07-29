@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use or build Argus for published work, please cite it as below and note the release tag corresponding to the parts you printed."
+title: "Argus: a multi-height 360 degree camera rig for systematic interior reality capture"
+abstract: >-
+  Argus is an open-hardware rig that mounts three consumer 360 degree cameras
+  at fixed, repeatable elevations so that a single walk through a building
+  produces the vertical baseline and occlusion coverage that structure-from-
+  motion reconstruction requires. Built from 3D printed parts and off-the-shelf
+  hardware. Designed to be planned and processed with the companion Hera
+  software.
+# CFF only supports "software" and "dataset" as types; there is no hardware
+# type. "software" is the conventional choice for open-hardware projects.
+type: software
+authors:
+  - family-names: Newbold
+    given-names: Rustin C.
+    affiliation: "Salisbury University / Rusty's Creation Lab (RCL) Services"
+    # orcid: "https://orcid.org/<TODO if you have one>"
+repository-code: "https://github.com/rnewbold06/Argus"
+url: "https://github.com/rnewbold06/Argus"
+license: CC-BY-4.0
+version: "<TODO: tag this repo, e.g. v2.0.0, and put it here>"
+date-released: "<TODO: YYYY-MM-DD>"
+keywords:
+  - open-hardware
+  - photogrammetry
+  - structure-from-motion
+  - 360-degree-camera
+  - digital-twin
+  - 3d-printing
+  - reality-capture
+references:
+  - type: software
+    title: "Hera: capture planning and SfM preprocessing for 360 degree reality capture"
+    authors:
+      - family-names: Newbold
+        given-names: Rustin C.
+    repository-code: "https://github.com/rnewbold06/Hera"
